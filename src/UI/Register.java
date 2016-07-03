@@ -13,8 +13,6 @@ public class Register extends javax.swing.JFrame {
         initComponents();
         lblError.setText(Variables.status);
     }
-
-
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {

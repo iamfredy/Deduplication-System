@@ -7,7 +7,6 @@ public class Home extends javax.swing.JFrame {
 
     public Home() {
         initComponents();
-       // Variables.user="mark@logic.com";
         lblHello.setText("Hello "+Variables.user);
         lblMsg.setText(Variables.status);
     }
