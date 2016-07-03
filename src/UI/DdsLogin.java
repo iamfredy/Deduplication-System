@@ -1,5 +1,4 @@
 package UI;
-
 import FilesOp.Variables;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
