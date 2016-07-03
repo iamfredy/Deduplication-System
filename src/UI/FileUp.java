@@ -13,7 +13,6 @@ public class FileUp extends javax.swing.JFrame {
     public FileUp() {
         initComponents();
     }
-
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {

@@ -13,7 +13,6 @@ public class FindHash extends javax.swing.JFrame {
 
     public FindHash() {
         initComponents();
-        //User.user="fredy799@gmail.com";//TO TEST
     }
     public static String filehash;
     public static int fid;

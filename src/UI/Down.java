@@ -14,7 +14,6 @@ public class Down extends javax.swing.JFrame {
 
     public Down() throws ClassNotFoundException, SQLException {
         initComponents();
-        //User.user="fredy799@gmail.com";//TO TEST
         lblHello.setText("Hello "+Variables.user);
         try
         {
@@ -30,7 +29,6 @@ public class Down extends javax.swing.JFrame {
             long size=000;
             String fname=r.getString("filename");
             st2=dbConnection.DBcon.getCon().prepareStatement("SELECT filesize FROM tblfiles where fileid=?");
-            //System.out.println("id "+fid);
             st2.setLong(1,fid);///userid
             r2=st2.executeQuery();
             if(r2.next())
