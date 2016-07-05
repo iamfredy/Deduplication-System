@@ -1,6 +1,4 @@
-
 package UI;
-
 import FilesOp.Variables;
 
 public class Upload extends javax.swing.JFrame {
