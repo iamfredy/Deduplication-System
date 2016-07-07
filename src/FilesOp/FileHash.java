@@ -24,12 +24,5 @@ public class FileHash {
             }
             return new HexBinaryAdapter().marshal(sha1.digest());
         }
-    }
-//    public static void main(String args[]) throws IOException, NoSuchAlgorithmException
-//    {
-//        String ff;
-//        ff=calcSHA1(new File("C:\\Users\\Kowalski\\Test\\Btree2.ppt.004"));
-//        System.out.println(ff);
-//    }
-//    
+    }  
 }

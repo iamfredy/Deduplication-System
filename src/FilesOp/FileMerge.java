@@ -1,5 +1,4 @@
 package FilesOp;
-
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -14,7 +13,6 @@ public class FileMerge {
     public static void mergeChunks(int fid,String fname) throws IOException, ClassNotFoundException, SQLException, Exception
     {
         File out=new File(Variables.dectemppath+fname);//output local storage path
-        //mergeFiles(f1, f2);
         PreparedStatement st=dbConnection.DBcon.getCon().prepareStatement("SELECT chunkhash,seqno FROM tblchunks WHERE  fileid=? ORDER BY seqno");
         st.setInt(1,fid);
         ResultSet r=st.executeQuery();
