@@ -31,9 +31,4 @@ public class FileMerge {
         out.delete();
        // System.out.println("Successfully Downloaded");
     }
-
-    /*public static void main(String[] args) throws IOException, ClassNotFoundException, SQLException
-    {
-        mergeChunks(40,"");//arguments are file id and output filename
-    }*/
 }
