@@ -29,6 +29,5 @@ public class FileMerge {
         File original=new File(Variables.downloadpath+fname);
         AESCrypter.decrypt(out,original);
         out.delete();
-       // System.out.println("Successfully Downloaded");
     }
 }
