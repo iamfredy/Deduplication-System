@@ -62,23 +62,6 @@ public class AESCrypter {
   
 }
 
-/*public class Cryptor{
-  public static void main(String[] argv) throws Exception  {
-    String keyString="TheDarkKnightRises";
-    SecretKey key2=new SecretKeySpec(keyString.getBytes(),0,16,"AES");
-    System.out.println("Key: "+key2);
-    //AESEncrypter encrypter = new AESEncrypter(key2);
-   AESEncrypter.encrypt(new File("C:\\Users\\Kowalski\\Desktop\\Downloads\\a.txt"), new File("C:\\Users\\Kowalski\\Desktop\\Downloads\\out.txt"));
-  //AESEncrypter.decrypt(new File("C:\\Users\\Kowalski\\Desktop\\Downloads\\out.txt"), new File("C:\\Users\\Kowalski\\Desktop\\Downloads\\aaa.txt"));
-// System.out.println("A.mp3: "+FilesOp.FileHash.calcSHA1(new File("C:\\Users\\Kowalski\\Desktop\\Downloads\\a.mkv")));
-    //System.out.println("b.mp3: "+FilesOp.FileHash.calcSHA1(new File("C:\\Users\\Kowalski\\Desktop\\Downloads\\b.mkv")));
-    //System.out.println("c.mp3: "+FilesOp.FileHash.calcSHA1(new File("C:\\Users\\Kowalski\\Desktop\\Downloads\\c.mkv")));
-    //System.out.println("d.mp3: "+FilesOp.FileHash.calcSHA1(new File("C:\\Users\\Kowalski\\Desktop\\Downloads\\d.mkv")));
-    
-  }
-}
-*/
-   
     
     
     
