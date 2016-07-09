@@ -57,12 +57,5 @@ public class AESCrypter {
     }
     out.close();
     in.close();
-  }
-  
-  
-}
-
-    
-    
-    
-  
+  } 
+}  
