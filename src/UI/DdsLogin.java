@@ -10,7 +10,6 @@ public class DdsLogin extends javax.swing.JFrame {
         initComponents();
         lblError.setVisible(false);
         lblMsg.setText(Variables.status);
-        
     }
     String user="";
     String pwd="";
