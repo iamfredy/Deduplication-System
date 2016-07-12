@@ -8,7 +8,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Register extends javax.swing.JFrame {
-
     public Register() {
         initComponents();
         lblError.setText(Variables.status);

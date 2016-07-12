@@ -2,7 +2,6 @@ package UI;
 
 import FilesOp.Variables;
 import java.sql.SQLException;
-
 public class Home extends javax.swing.JFrame {
 
     public Home() {
