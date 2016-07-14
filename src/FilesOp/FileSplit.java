@@ -15,7 +15,6 @@ import java.sql.SQLException;
 
 public class FileSplit
 {    
-    
     public  static void splitFile(File originalFile) throws IOException, FileNotFoundException, NoSuchAlgorithmException, ClassNotFoundException, SQLException, Exception//changed  to static
     {
         int partCounter = 1;//I like to name parts from 001, 002, 003, ...  //you can change it to 0 if you want 000, 001, ...
@@ -27,7 +26,8 @@ public class FileSplit
         {//try-with-resources to ensure closing stream
             String name = originalFile.getName();
             int tmp = 0;
-            while ((tmp = bis.read(buffer)) > 0){//write each chunk of data into separate file with different number in name
+            while ((tmp = bis.read(buffer)) > 0)
+            {//write each chunk of data into separate file with different number in name
                 File newFile = new File(Variables.temppath, name + "."+ String.format("%03d", partCounter));//local temp folder
                 String chunkhash;
                 try (FileOutputStream out = new FileOutputStream(newFile))

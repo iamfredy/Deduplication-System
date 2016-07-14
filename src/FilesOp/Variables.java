@@ -1,6 +1,5 @@
 package FilesOp;
 public class Variables {
-  
     public static String user;//variable to store username of logged in user
     public static String downloadpath="C:\\Users\\Kowalski\\Desktop\\Downloads\\";//destination
     public static String temppath="C:\\Users\\Kowalski\\Test\\Temp\\";//where temporaray files stored
